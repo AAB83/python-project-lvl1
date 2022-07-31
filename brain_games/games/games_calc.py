@@ -22,9 +22,11 @@ def main_calc():
         random_number_two = random.randint(1, 100)
         actions = ('+', '-', '*')
         operation = actions[random.randint(0, 2)]
-        question = str(random_number_one) + ' ' + operation + ' ' + str(random_number_two)
+        question = str(random_number_one) + ' ' + operation + ' ' \
+            + str(random_number_two)
         answer_user = reply(question)
-        correct_answer = calculate_answer(random_number_one, random_number_two, operation)
+        correct_answer = calculate_answer(random_number_one,
+                                          random_number_two, operation)
         if compare_answer(answer_user, correct_answer):
             print('Correct!')
             number_of_correct_answers += 1
