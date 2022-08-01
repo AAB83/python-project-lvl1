@@ -4,7 +4,7 @@ from brain_games.cli import welcom_user
 
 
 def main():
-    print('Welcom to the Brain Games')
+    print('Welcome to the Brain Games!')
     welcom_user()
 
 
