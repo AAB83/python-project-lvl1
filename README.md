@@ -31,8 +31,6 @@ brain-calc - https://asciinema.org/a/mBiDZG5LcrJz5cm1Nuv4JHOJ8
 brain-gcd - https://asciinema.org/a/mw2D6r0IzgKVkh6IjaIEY47eV
 brain-prime - https://asciinema.org/a/rLVNHEZkvGLaxZZv9Q52SMerO
 
-<ol>
-<li>Bird</li>
-<li>McHale</li>
-<li>Parish</li>
-</ol>
+This is [an example](http://example.com/ "Title") inline link.
+
+[This link](http://example.net/) has no title attribute.
