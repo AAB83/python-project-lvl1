@@ -12,7 +12,7 @@ Calculator.
 #### brain-gcd:
 Determining the greatest common denominator.
 #### brain-progression:
-determining the missing value of an arithmetic progression.
+Determining the missing value of an arithmetic progression.
 #### brain-prime:
 Determine whether a number is prime or not.
 
