@@ -8,7 +8,7 @@ commands: make install, make build, make package-install while in the project
 folder. To start one of the games, run one of the commands: 
 brain-even, brain-calc, brain-gcd, brain-progression, brain-prime.
 
-# Asciinema
+<h1 Asciinema>
 
 install - https://asciinema.org/a/ZzLNxRiDKyhTI5OgSp52H92R2
 brain-even - https://asciinema.org/a/0eQhtG0KVqPlcCFNKd6JsASay
