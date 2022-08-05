@@ -25,9 +25,9 @@ brain-even, brain-calc, brain-gcd, brain-progression, brain-prime.
 
 ### Asciinema
 
-[installation recording](https://asciinema.org/a/ZzLNxRiDKyhTI5OgSp52H92R2)
-[brain-even recording](https://asciinema.org/a/0eQhtG0KVqPlcCFNKd6JsASay)
-[brain-calc recording](https://asciinema.org/a/mBiDZG5LcrJz5cm1Nuv4JHOJ8)
-[brain-gcd recording](https://asciinema.org/a/mw2D6r0IzgKVkh6IjaIEY47eV)
-[brain-prime recording](https://asciinema.org/a/rLVNHEZkvGLaxZZv9Q52SMerO)
+1. [installation recording](https://asciinema.org/a/ZzLNxRiDKyhTI5OgSp52H92R2)
+2. [brain-even recording](https://asciinema.org/a/0eQhtG0KVqPlcCFNKd6JsASay)
+3. [brain-calc recording](https://asciinema.org/a/mBiDZG5LcrJz5cm1Nuv4JHOJ8)
+4. [brain-gcd recording](https://asciinema.org/a/mw2D6r0IzgKVkh6IjaIEY47eV)
+5. [brain-prime recording](https://asciinema.org/a/rLVNHEZkvGLaxZZv9Q52SMerO)
 
