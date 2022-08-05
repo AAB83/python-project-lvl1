@@ -25,12 +25,9 @@ brain-even, brain-calc, brain-gcd, brain-progression, brain-prime.
 
 ### Asciinema
 
-install - https://asciinema.org/a/ZzLNxRiDKyhTI5OgSp52H92R2
-brain-even - https://asciinema.org/a/0eQhtG0KVqPlcCFNKd6JsASay
-brain-calc - https://asciinema.org/a/mBiDZG5LcrJz5cm1Nuv4JHOJ8
-brain-gcd - https://asciinema.org/a/mw2D6r0IzgKVkh6IjaIEY47eV
-brain-prime - https://asciinema.org/a/rLVNHEZkvGLaxZZv9Q52SMerO
+[installation recording](https://asciinema.org/a/ZzLNxRiDKyhTI5OgSp52H92R2)
+[brain-even recording](https://asciinema.org/a/0eQhtG0KVqPlcCFNKd6JsASay)
+[brain-calc recording](https://asciinema.org/a/mBiDZG5LcrJz5cm1Nuv4JHOJ8)
+[brain-gcd recording](https://asciinema.org/a/mw2D6r0IzgKVkh6IjaIEY47eV)
+[brain-prime recording](https://asciinema.org/a/rLVNHEZkvGLaxZZv9Q52SMerO)
 
-This is [an example](http://example.com/ "Title") inline link.
-
-[This link](http://example.net/) has no title attribute.
