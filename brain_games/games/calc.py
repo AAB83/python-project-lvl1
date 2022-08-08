@@ -37,7 +37,3 @@ Let's try again, {name_user}!""")
 
     if number_of_correct_answers == 3:
         print(f'Congratulations, {name_user}!')
-
-
-if __name__ == '__main__':
-    main_calc()
