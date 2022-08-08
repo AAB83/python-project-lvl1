@@ -2,6 +2,9 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "brain games"
+classifiers = [
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
 authors = ["Anton Borisov <antobis1983@gmail.com>"]
 packages = [
   { include = "brain_games" },
