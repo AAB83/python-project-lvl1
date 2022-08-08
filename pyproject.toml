@@ -6,7 +6,7 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules"
 ]
 authors = ["Anton Borisov <antobis1983@gmail.com>"]
-repository = [https://github.com/AAB83/python-project-lvl1 ]
+repository = "https://github.com/AAB83/python-project-lvl1" 
 packages = [
   { include = "brain_games" },
 ]
