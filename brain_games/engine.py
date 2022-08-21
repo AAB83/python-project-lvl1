@@ -1,8 +1,5 @@
 import prompt
 
-from brain_games.answer_user import reply
-from brain_games.games_api import compare_answer
-
 
 def run_game(game):
     print('Welcome to the Brain Games!')
@@ -12,8 +9,9 @@ def run_game(game):
     number_of_correct_answers = 0
     while number_of_correct_answers < 3:
         question, correct_answer = game.get_question_and_answer()
-        answer_user = reply(question)
-        if compare_answer(answer_user, correct_answer):
+        print(f'Question: {question}')
+        answer_user = prompt.string('Your answer: ')
+        if answer_user == correct_answer:
             print('Correct!')
             number_of_correct_answers += 1
         else:
