@@ -18,8 +18,7 @@ def get_question_and_answer():
     random_number_two = random.randint(1, 100)
     actions = ('+', '-', '*')
     operation = actions[random.randint(0, 2)]
-    question = str(random_number_one) + ' ' + operation + ' ' \
-        + str(random_number_two)
+    question = f"{str(random_number_one)} {operation} {str(random_number_two)}"
     correct_answer = calculate_answer(random_number_one,
                                       random_number_two, operation)
     return question, correct_answer

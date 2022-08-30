@@ -16,10 +16,9 @@ def get_question_and_answer():
     progression = str(random_number_one)
     while i < 10:
         if i != index_correct_answer:
-            progression = progression + ' ' + \
-                str(random_number_one + step_progression * i)
+            progression = f"{progression} {str(random_number_one + step_progression * i)}"
         else:
-            progression = progression + ' ' + '..'
+            progression = f"{progression} .."
         i += 1
 
     question = progression
