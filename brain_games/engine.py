@@ -6,17 +6,17 @@ def run_game(game):
     name_user = prompt.string('May I have your name? ')
     print('Hello, ' + name_user + '!')
     print(game.DESCRIPTION)
-    number_of_correct_answers = 0
-    while number_of_correct_answers < 3:
+    rounds_count = 3
+    for i in range(rounds_count):
         question, correct_answer = game.get_question_and_answer()
         print(f'Question: {question}')
         answer_user = prompt.string('Your answer: ')
-        if answer_user == correct_answer:
-            print('Correct!')
-            number_of_correct_answers += 1
-        else:
-            print(f"""'{answer_user}' is wrong answer ;(. Correct answer was '{correct_answer}'.
-    Let's try again, {name_user}!""")
+        if answer_user != correct_answer:
+            print(f"'{answer_user}' is wrong answer ;(."
+                  f" Correct answer was '{correct_answer}'.\n"
+                  f"Let's try again, {name_user}!")
             break
-    if number_of_correct_answers == 3:
+        elif answer_user == correct_answer:
+            print('Correct!')
+    else:
         print(f'Congratulations, {name_user}!')
