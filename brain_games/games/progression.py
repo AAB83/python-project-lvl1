@@ -19,5 +19,6 @@ def get_question_and_answer():
         i += 1
 
     question = progression
-    correct_answer = str(random_number_one + step_progression * index_correct_answer)
+    correct_answer = \
+        str(random_number_one + step_progression * index_correct_answer)
     return question, correct_answer
