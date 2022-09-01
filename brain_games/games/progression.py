@@ -13,9 +13,9 @@ def get_question_and_answer():
     progression = \
         list(range(random_number_one, progression_end, step_progression))
     progression[index_correct_answer] = '..'
-    question = ''
-    for i in progression:
-        question = f'{question} {i}'
+    question = str(random_number_one)
+    for i in range(1, progression_length):
+        question = f'{question} {progression[i]}'
     correct_answer = \
         str(random_number_one + step_progression * index_correct_answer)
     return question, correct_answer
