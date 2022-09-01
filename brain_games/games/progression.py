@@ -10,7 +10,8 @@ def get_question_and_answer():
     progression_length = 10
     progression_end = random_number_one + step_progression * progression_length
     index_correct_answer = random.randint(1, progression_length - 1)
-    progression = list(range(random_number_one, progression_end, step_progression))
+    progression = \
+        list(range(random_number_one, progression_end, step_progression))
     progression[index_correct_answer] = '..'
     question = ''
     for i in progression:
