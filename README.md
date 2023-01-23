@@ -31,3 +31,4 @@ brain-even, brain-calc, brain-gcd, brain-progression, brain-prime.
 4. [brain-gcd recording](https://asciinema.org/a/mw2D6r0IzgKVkh6IjaIEY47eV)
 5. [brain-prime recording](https://asciinema.org/a/rLVNHEZkvGLaxZZv9Q52SMerO)
 
+<a href="https://codeclimate.com/github/AAB83/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/b6cce2d5be81db04a8b4/maintainability" /></a>
