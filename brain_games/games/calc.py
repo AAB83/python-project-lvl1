@@ -15,6 +15,6 @@ def get_question_and_answer():
     }
     operation = random.choice(list(operations.keys()))
     question = f"{random_number_one} {operation} {random_number_two}"
-    correct_answer = str(operations[operation]
+    correct_answer = (operations[operation]
                          (random_number_one, random_number_two))
-    return question, correct_answer
+    return question, str(correct_answer)
