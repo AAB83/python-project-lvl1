@@ -1,6 +1,6 @@
 import random
 
-from brain_games.is_prime import is_prime
+from brain_games.lib.is_prime import is_prime
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
