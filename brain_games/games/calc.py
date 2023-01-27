@@ -14,7 +14,7 @@ def get_question_and_answer():
         '*': operator.mul,
     }
     operation = random.choice(list(operations.keys()))
-    question = f"{str(random_number_one)} {operation} {str(random_number_two)}"
+    question = f"{random_number_one} {operation} {random_number_two}"
     correct_answer = str(operations[operation]
                          (random_number_one, random_number_two))
     return question, correct_answer
