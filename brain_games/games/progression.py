@@ -13,10 +13,9 @@ def get_question_and_answer():
     progression = \
         list(range(start, end, step))
     progression = [str(i) for i in progression]
+    correct_answer = progression[index_correct_answer]
     progression[index_correct_answer] = '..'
     question = ' '.join(progression)
-    correct_answer = \
-        str(start + step * index_correct_answer)
     return question, correct_answer
 
 
