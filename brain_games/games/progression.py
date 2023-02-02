@@ -17,6 +17,3 @@ def get_question_and_answer():
     progression[index_correct_answer] = '..'
     question = ' '.join(progression)
     return question, correct_answer
-
-
-get_question_and_answer()
